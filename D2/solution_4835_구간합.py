@@ -5,7 +5,7 @@ for test_case in range(1, T+1):
     mx = 0
     mn = 10000 * N
     sm = 0
-    for i in range(0, N-M+1):
+    for i in range(N-M+1):
         sm = sum(lis[i:i+M])
         if sm < mn:
             mn = sm
